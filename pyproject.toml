@@ -26,6 +26,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "httpx2>=2.13.1",
     "mypy>=2.4.0",
     "pytest>=9.1.1",
     "pytest-cov>=7.1.0",
@@ -47,3 +48,4 @@ addopts = "-ra"
 python_version = "3.12"
 disallow_untyped_defs = true
 warn_unused_ignores = true
+plugins = ["pydantic.mypy"]
