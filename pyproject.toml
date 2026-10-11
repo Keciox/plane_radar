@@ -1,7 +1,7 @@
 [project]
 name = "flyradar"
 version = "0.1.0"
-description = "Add your description here"
+description = "App is going to live search planes"
 readme = "README.md"
 authors = [
     { name = "Castrolek", email = "castrolek1@gmail.com" }

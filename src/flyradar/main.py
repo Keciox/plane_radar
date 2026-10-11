@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/health")
 def health_check() -> dict[str, str]:
-    return {"status": "notok"}
+    return {"status": "ok"}
