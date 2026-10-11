@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from flyradar.main import app
+from case_opening.main import app
 
 client = TestClient(app)
 

@@ -4,7 +4,7 @@ from functools import lru_cache
 from sqlalchemy import Engine, MetaData, create_engine
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
-from flyradar.config import get_settings
+from case_opening.config import get_settings
 
 NAMING_CONVENTION = {
     "ix": "ix_%(column_0_N_label)s",

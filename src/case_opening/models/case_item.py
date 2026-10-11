@@ -1,7 +1,7 @@
 from sqlalchemy import CheckConstraint, ForeignKey, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
-from flyradar.database import Base
+from case_opening.database import Base
 
 
 class CaseItem(Base):

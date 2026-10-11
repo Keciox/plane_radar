@@ -3,7 +3,7 @@ from datetime import datetime
 from sqlalchemy import BigInteger, CheckConstraint, DateTime, String, func, text
 from sqlalchemy.orm import Mapped, mapped_column
 
-from flyradar.database import Base
+from case_opening.database import Base
 
 
 class Case(Base):
